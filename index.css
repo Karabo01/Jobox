@@ -1,0 +1,189 @@
+body{
+    background-color:rgb(250, 250, 250);
+    margin:0;
+    
+ }
+ #cover{
+     
+     font-size: xx-large;
+     font-style: oblique;
+     text-align: center;
+     font-weight: bold;
+     color: rgb(0, 0, 0);
+ }
+
+ .header {
+    font-style:italic;
+    padding-top: 5px;
+    text-align: center;
+    background: linear-gradient(100deg,rgb(238, 109, 109),rgb(126, 182, 216));
+    color: rgb(3, 3, 3);
+    font-size: 10px;
+  }
+
+  .footer {
+    font-style:italic; 
+    padding-bottom: 10px;
+    text-align: center;
+    background: linear-gradient(100deg,rgb(238, 109, 109),rgb(126, 182, 216));
+    color: rgb(3, 3, 3);
+    font-size: 10px;
+  }
+
+  .text1{
+    font-size:large;
+    font-style:normal;
+    padding-left: 20px;
+  }
+
+  .contr{
+    font-size: large;
+    width:100%;
+    min-height: 100vh;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: auto; 
+    background: linear-gradient(100deg,rgb(126, 182, 216),rgb(238, 109, 109));
+  }
+
+  #fname{
+    width: 250px;
+    height: 25px;
+    margin: 20px;
+    border-bottom-width: 2px;
+  }
+  #fname:valid{
+    border-color: rgb(255, 129, 129);
+
+  }
+
+  #Fee{
+    width: 250px;
+    height: 25px;
+    margin: 20px;
+    border-bottom-width: 2px;
+  }
+  #Fee:valid{
+    border-color: rgb(255, 129, 129);
+
+  }
+
+  #Descr{
+    width: 250px;
+    height: 25px;
+    margin: 20px;
+    border-bottom-width: 2px;
+  }
+  #Descr:valid{
+    border-color: rgb(255, 129, 129);
+
+  }
+
+  #stDate{
+    width: 250px;
+    height: 25px;
+    margin: 20px;
+    border-bottom-width: 2px;
+  }
+  #stDate:valid{
+    border-color: rgb(255, 129, 129);
+
+  }
+
+  #endDate{
+    width: 250px;
+    height: 25px;
+    margin: 20px;
+    border-bottom-width: 2px;
+  }
+  #endDate:valid{
+    border-color: rgb(255, 129, 129);
+
+  }
+  #submit{
+    width: 140px;
+    border: 0;
+    padding: 12px 0;
+    outline: none;
+    border-bottom-width: 2px;
+    border-color: rgb(86, 211, 37);
+    background: linear-gradient(to right,#52fb55, #90d1d1);
+    border-radius: 6px;
+    font-style: oblique;
+    font-size: large;
+    cursor: pointer;
+  }
+
+  .btnDown{
+    width: 140px;
+    border: 0;
+    padding: 12px 0;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(100deg,rgb(126, 182, 216),rgb(238, 109, 109));
+    border-radius: 6px;
+    cursor: pointer;
+    font-style: oblique;
+    font-size: large;
+    right:550px;
+  }
+
+  #location{
+    width: 250px;
+    height: 25px;
+    margin: 20px;
+    border-bottom-width: 2px;
+  }
+
+  #location:valid{
+    border-color: rgb(255, 129, 129);
+
+  }
+
+  #location2{
+    width: 250px;
+    height: 25px;
+    margin: 20px;
+    border-bottom-width: 2px;
+  }
+
+  #location2:valid{
+    border-color: rgb(255, 129, 129);
+
+  }
+
+  #Jobox_Sign{
+    width: 250px;
+    height: 25px;
+    margin: 20px;
+    border-bottom-width: 2px;
+  }
+
+  #Jobox_Sign:valid{
+    border-color: rgb(255, 129, 129);
+
+  }
+
+  #Signature{
+      width: 250px;
+      height: 25px;
+      margin: 20px;
+      border-bottom-width: 2px;
+  }
+
+  #Signature:valid{
+    border-color: rgb(255, 129, 129);
+
+  }
+
+  #error{
+    color : red;
+    font-size: xx-large;
+  }
+  
+  #errDownload{
+    color : red;
+    font-size: large;
+  }

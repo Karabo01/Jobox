@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>FIXED TERM AGREEMENT 
+        </title>
+        <link href="index.css" rel= "stylesheet" type = "text/css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+ 
+    </head>
+    <body >
+    <div class="contr" id="contr">
+    <form action="#" id="frm">
+        <div class="header">
+            <h1>Recruitment rates and terms agreement</h1>
+        </div>
+       <div id="cover">
+            <p>FIXED TERM AGREEMENT</p>
+            <p>between</p>
+            <p >BMF Attorneys</p>
+            
+            <p>with company registration number 2022/123456/07
+            </p>
+            <p>and</p>
+            <span id="Dname"></span>
+            <input required="true" type="text" id="fname" name="fname" placeholder="Insert Client name" n><br><br>
+            
+        </div>
+       
+        <h1 class=text1>Collectively referred herein as the “parties”
+        </h1>
+     
+       <div >
+        <ol>
+            <li>Payment Terms:</li> 
+       
+            <p>
+            <ul>
+                <li>BMF Attorney’s fee <span id="Damount"></span><input required="true" type="number" id="Fee" name="Fee" 
+                    placeholder="Insert Payment Amount" n>(excluding VAT). The retainer fee can be 
+                    paid upfront, or month-to-month and the payment terms can be payable as follows:
+                    <ol>
+                        <li>Upfront:
+                            <ul>
+                                <li>
+                                    Three-twelfths of the fee during the probation period in 3 equal instalments 
+                                    by the 7th day of each month
+                                </li>
+                                <li>
+                                    Nine-twelfths of the fee upon conclusion of the probation period of 
+                                    employment payable on the 7th day of the 4th month.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Month-to-month:
+                            <ul>
+                                <li>
+                                    The month-to-month fee shall be paid by the 7th day of each month
+                    
+                                </li>
+                            </ul>
+                        </li>
+                        
+                    </ol>
+
+                    
+            </p>
+                </li>
+                <li>No variation or amendment to this Agreement shall be of any effect unless such amendment 
+                    is put in writing and signed by all parties</li>
+                <li>Any documentation prepared by BMF Attorneys remains its property</li>
+            </ul>
+            <li>
+                Duration
+                <ul>
+                    <li>
+                        The Client has procured the services of BMF Attorneys and hereby accepts the appointment 
+                        as an independent contractor of the Client for a fixed period of time. 
+                    </li>
+                    <li>
+                        The reason for this fixed-term contract is for the appointment and completion of the <span id="Ddescr"></span>
+                        <input required="true" type="text" id="Descr" name="Descr" 
+                        placeholder="Service Description" n>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Appointment
+                <ul>
+                    <li>
+                        Not withstanding the date of signature hereof, this fixed term contract shall be deemed
+                         to have commenced on the <span id="DstDate"></span>
+                         <input required="true" type="date" id="stDate" name="stDate" placeholder="Insert start date" n>
+                          and will terminate, without further notice, on the <span id="DendDate"></span>
+                          <input required="true" type="date" id="endDate" name="endDate" placeholder="Insert end date" n>
+                          <span id="error"></span>
+                    </li>
+                    <li>
+                        The automatic termination of the contract on the Termination Date shall not be construed 
+                        as a dismissal but as the completion of a fixed term contract.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Signed at <span id="loc1"></span><input type="text" id="location" name="location" 
+                    placeholder="Insert location" n> on</p> <span id="Sign1"></span> 
+                <input required="true" type="text" id="Jobox_Sign" name="Jobox_Sign"
+                placeholder="Sign here" n>  
+                <p>(Who warrants authority on behalf of Jobox) </p>
+
+                <p>Signed at <span id="loc2"></span><input required="true" type="text" id="location2" name="location" 
+                    placeholder="Insert location" n>on <span id="Sign2"></span></p>
+                <input required="true" type="text" id="Signature" name="Signature" 
+                placeholder="Sign here" n>   
+                <p>(Who warrants authority on behalf of:) </p>
+            </li>
+ 
+        </ol>   
+       </div>
+       <input type="submit" id="submit" name="submit" n>
+       <button class="btnDown" type="button"  onclick="download()">Download</button>
+       <p id="errDownload"></p>
+       <div class="footer">
+        <h1>Recruitment rates and terms agreement</h1>
+    </div>
+    </form>
+    </div> 
+   
+        <script src="index.js" > </script>   
+    </body>
+</html>
