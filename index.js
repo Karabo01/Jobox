@@ -86,13 +86,13 @@ function checkInputs()
         }
         //Clients pushed into an array of Clients
         Clients.push(Client)
+        localStorage.setItem("mydata", JSON.stringify(Clients));
     }  
  
 }
 
 
 btnDownload.onclick= function(){download()
-
 
 } 
 
@@ -123,6 +123,8 @@ function download()
 
         // Save the PDF
         doc.save('Contract.pdf');
+
+        //The following is for display on PDF purposes only
         downloadName.innerHTML="";
         downloadAmount.innerHTML= "";
         downloadDescription.innerHTML = "";
@@ -137,16 +139,19 @@ function download()
     }
     else{
         errorMessage2();
+        
     }
+    //Clear from after download button pressed
+    document.getElementById("frm").reset();
    
 }
-
+//Error message display for incorrect dates
 function errorMessage() {
     error.innerHTML = "Invalid dates";
    
     
 }
-
+//Error message display for attemt download before any data has been captured
 function errorMessage2() {
     error2.innerHTML = "No form(s) available for download";
     
